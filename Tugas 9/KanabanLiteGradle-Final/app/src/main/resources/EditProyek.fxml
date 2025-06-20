@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="kanbanlitegradle.controller.EditProyekController"
+      spacing="15"
+      alignment="CENTER"
+      style="-fx-background-color: #ecf0f1;"
+      prefWidth="600" prefHeight="400">
+
+    <padding>
+        <Insets top="30" bottom="30" left="40" right="40"/>
+    </padding>
+
+    <Label text="✏ Edit Proyek"
+           style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+
+    <TextField fx:id="namaField"
+               promptText="Nama Proyek"
+               style="-fx-font-size: 14px;"/>
+
+    <DatePicker fx:id="deadlinePicker"
+                promptText="Deadline"
+                style="-fx-font-size: 14px;"/>
+
+    <HBox spacing="10">
+        <Button text="💾 Simpan"
+                onAction="#handleSimpan"
+                style="-fx-background-color: #27ae60; -fx-text-fill: white; -fx-font-size: 14px; -fx-background-radius: 8;"/>
+        <Button text="↩ Kembali"
+                onAction="#handleKembali"
+                style="-fx-background-color: #7f8c8d; -fx-text-fill: white; -fx-font-size: 14px; -fx-background-radius: 8;"/>
+    </HBox>
+
+</VBox>

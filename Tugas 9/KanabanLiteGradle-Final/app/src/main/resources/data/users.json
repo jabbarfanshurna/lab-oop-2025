@@ -1,0 +1,52 @@
+[
+  {
+    "username": "manager",
+    "password": "manager123",
+    "role": "manager"
+  },
+  {
+    "username": "jabbar",
+    "password": "12345",
+    "role": "member"
+  },
+  {
+    "username": "nisa",
+    "password": "7894",
+    "role": "member"
+  },
+  {
+    "username": "Ryan",
+    "password": "123abc",
+    "role": "member"
+  },
+  {
+    "username": "diani",
+    "password": "diani123",
+    "role": "member"
+  },
+  {
+    "username": "dial",
+    "password": "dial456",
+    "role": "member"
+  },
+  {
+    "username": "chandra",
+    "password": "chan89",
+    "role": "member"
+  },
+  {
+    "username": "wahyu",
+    "password": "5678",
+    "role": "member"
+  },
+  {
+    "username": "yusuf",
+    "password": "ucup",
+    "role": "member"
+  },
+  {
+    "username": "dalvin",
+    "password": "1234",
+    "role": "Member"
+  }
+]

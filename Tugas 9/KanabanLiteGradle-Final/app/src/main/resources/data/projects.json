@@ -1,0 +1,82 @@
+[
+  {
+    "id": "6c0a8ab1-973a-48c5-92b3-411c6ad78ec4",
+    "name": "FINAL PROJECT LAB OOP",
+    "deskripsi": "kerjakan sesuai arahan yang diberikan, semangatt",
+    "deadline": "2025-06-20",
+    "status": "Belum Dimulai",
+    "teamMembers": [
+      "jabbar",
+      "nisa",
+      "Ryan",
+      "dial",
+      "diani",
+      "chandra",
+      "wahyu",
+      "yusuf"
+    ],
+    "tasks": [
+      {
+        "id": "e1642324-f858-44cf-9769-48fc97114044",
+        "title": "Menentukan Konsep",
+        "description": "",
+        "status": "DONE",
+        "assignee": "nisa"
+      },
+      {
+        "id": "467ec4f5-802c-4b6e-953b-2866430320c2",
+        "title": "Membuat Struktur Proyek",
+        "description": "",
+        "status": "DONE",
+        "assignee": "jabbar"
+      },
+      {
+        "id": "3b15bd2f-55ed-442a-b039-4a862cf9702f",
+        "title": "Membuat Tampilan Aplikasi",
+        "description": "",
+        "status": "IN_PROGRESS",
+        "assignee": "dial"
+      },
+      {
+        "id": "23da256d-20f6-42d8-9262-d1dfa87a9962",
+        "title": "Mengerjakan Dokumentasi Apliaksi",
+        "description": "",
+        "status": "TODO",
+        "assignee": "diani"
+      },
+      {
+        "id": "1d32f19b-50cb-4560-84be-618ae4846fa2",
+        "title": "Buat PPT Presentasi Proyek",
+        "description": "",
+        "status": "TODO",
+        "assignee": "chandra"
+      },
+      {
+        "id": "2282b96b-d21c-4526-9e9e-1aa2b8e03221",
+        "title": "Cross Check Keseluruhan Proyek",
+        "description": "",
+        "status": "DONE",
+        "assignee": "wahyu"
+      },
+      {
+        "id": "3202ae61-7d4e-4618-966c-1933c261bbc3",
+        "title": "presentasi",
+        "description": "",
+        "status": "TODO",
+        "assignee": "diani"
+      }
+    ]
+  },
+  {
+    "id": "fa3a31e5-c4e2-48fe-ad96-ffcf30748a2d",
+    "name": "UAS",
+    "deskripsi": "kerjakan dengan baik",
+    "deadline": "2025-06-25",
+    "status": "Belum Dimulai",
+    "teamMembers": [
+      "jabbar",
+      "dalvin"
+    ],
+    "tasks": []
+  }
+]

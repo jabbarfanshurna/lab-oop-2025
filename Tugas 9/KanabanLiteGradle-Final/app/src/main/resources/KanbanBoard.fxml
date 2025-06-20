@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="kanbanlitegradle.controller.KanbanBoardController"
+            prefWidth="900" prefHeight="600">
+
+    <top>
+        <VBox spacing="12" style="-fx-background-color: #2c3e50;">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <Label fx:id="judulProyekLabel"
+                   style="-fx-text-fill: white; -fx-font-size: 20px; -fx-font-weight: bold;" />
+            <Label fx:id="deadlineProyekLabel"
+                   style="-fx-text-fill: #ecf0f1; -fx-font-size: 14px;" />
+
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <TextField fx:id="taskNameField" promptText="Nama Task" />
+                <ChoiceBox fx:id="statusChoiceBox" prefWidth="150" />
+                <ComboBox fx:id="memberChoiceBox" promptText="Pilih Member" prefWidth="150" />
+            </HBox>
+
+            <HBox spacing="10" alignment="CENTER_RIGHT">
+                <Region fx:id="spacer" HBox.hgrow="ALWAYS" />
+                <Button fx:id="tambahTaskButton" text="Tambah Task" onAction="#handleTambahTask" />
+                <Button text="Kembali" onAction="#handleKembali" />
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <HBox spacing="20" style="-fx-background-color: #ecf0f1;">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+
+            <VBox spacing="10" alignment="TOP_CENTER" prefWidth="280"
+                  style="-fx-background-color: white; -fx-padding: 15; -fx-border-color: #bdc3c7; -fx-border-radius: 5;">
+                <Label text="To Do"
+                       style="-fx-font-size: 16px; -fx-font-weight: bold;" />
+                <VBox fx:id="belumDimulaiBox" spacing="10" />
+            </VBox>
+
+            <VBox spacing="10" alignment="TOP_CENTER" prefWidth="280"
+                  style="-fx-background-color: white; -fx-padding: 15; -fx-border-color: #bdc3c7; -fx-border-radius: 5;">
+                <Label text="In Progress"
+                       style="-fx-font-size: 16px; -fx-font-weight: bold;" />
+                <VBox fx:id="sedangBerjalanBox" spacing="10" />
+            </VBox>
+
+            <VBox spacing="10" alignment="TOP_CENTER" prefWidth="280"
+                  style="-fx-background-color: white; -fx-padding: 15; -fx-border-color: #bdc3c7; -fx-border-radius: 5;">
+                <Label text="Done"
+                       style="-fx-font-size: 16px; -fx-font-weight: bold;" />
+                <VBox fx:id="selesaiBox" spacing="10" />
+            </VBox>
+        </HBox>
+    </center>
+
+</BorderPane>
